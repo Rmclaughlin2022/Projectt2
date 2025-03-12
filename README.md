@@ -60,7 +60,7 @@ React Library Manager is a web application that allows users to add, manage, and
 - Gained experience with Css, Html, and JavaScript
 
 ## Link to Live Demo
-(Provide the link to your deployed project here)
+[(https://rmclaughlin2022.github.io/Projectt2/)]
 
 ## Commit History
 - I had a lot of trouble with react making my github have 37,000 files that didn't work and I tried rolling back it but it took too long so instead I created a new repository everytime that happened. (like 2 or 3 times) so thats why my Commit History is basically nonexistant.
