@@ -4,7 +4,9 @@
 React Library Manager is a web application that allows users to add, manage, and remove books from a virtual library. The application provides a user-friendly interface for organizing a personal or shared book collection.
 
 ## Screenshots
-(Include screenshots or GIFs of the working project here)
+![Main page](./project2/public/images/first.png)
+![Adding books](./project2/public/images/second.png)
+![Showed the books added](./project2/public/images/third.png)
 
 ## Technologies Used
 - React.js
