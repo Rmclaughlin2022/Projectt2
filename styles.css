@@ -1,0 +1,141 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+
+    /*Background code going to change probably*/
+    background-image: url('images/SerieLibarary.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    background-attachment: fixed;
+
+}
+#title, #author, #pages, #book-image{
+    width: 96%; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto; /* Center it horizontally */
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    text-align: center; 
+}
+h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #d30909;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.book-list {
+    margin-top: 200px;
+}
+
+.book-item {
+    width: 200px;  
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.delete-book{
+    background-color: #dc3545;
+}
+
+.toggle-read {
+    background-color: #e2bc11;
+    color: rgb(255, 255, 255);
+}
+
+
+#book-form {
+    position: absolute; 
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 320px;
+
+    background-image: url("images/add.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+}
+#library {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: start;
+    padding-left: 0;
+    margin-left: -60px;
+}
+
+.login-button {
+    position: absolute;
+    top: 50px; 
+    right: 50px; 
+    width: 100px;
+    
+}
+
+/*Cant figure it out probably gonna give it up lol */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(10, 10, 10);
+    padding: 10px 0;
+}
+
+#add-book-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    width: auto;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+}
